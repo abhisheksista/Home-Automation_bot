@@ -1,9 +1,9 @@
 
 from telegram.ext import Updater, MessageHandler, Filters
 from Adafruit_IO import Client
-username='Abhishek_sista'
-key='aio_DJeC28ofzZkZQyuqigVVgmo4ZUWt'
-aio=Client(username, key)
+ADAFRUIT_IO_USERNAME='Abhishek_sista'
+ADAFRUIT_IO_KEY='aio_DJeC28ofzZkZQyuqigVVgmo4ZUWt'
+aio=Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 def demo1(bot,update):
   chat_id = bot.message.chat_id
