@@ -2,7 +2,7 @@
 from telegram.ext import Updater, MessageHandler, Filters
 from Adafruit_IO import Client
 ADAFRUIT_IO_USERNAME='Abhishek_sista'
-ADAFRUIT_IO_KEY='aio_eeqc88ZYuiW8N2X4XZkQBDBUHITv'
+ADAFRUIT_IO_KEY='aio_khnb893ws0aY0XxUulQjNNHpWH2x'
 aio=Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 def demo1(bot,update):
