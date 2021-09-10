@@ -1,1 +1,1 @@
-worker: pyhton Home-auto-bot.py
+worker: python Home-auto-bot.py
